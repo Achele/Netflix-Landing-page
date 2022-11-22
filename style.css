@@ -165,3 +165,56 @@ video {
   margin-bottom: 0.1em;
   /* z-index: -1; */
 }
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  /* margin: 2em; */
+  border-bottom: 1em solid rgb(46, 45, 45);
+  /* height: 100vh; */
+}
+.section3-text {
+  margin: 0 3.9em;
+  padding: 3em;
+  /* border: 1px solid ; */
+}
+.section3-text h1 {
+  font-size: 4em;
+  line-height: 1.5;
+}
+.section3-text h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
+.img2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  box-shadow: 0 0 2em 0 #000;
+  border: 2px solid hsla(0, 0%, 100%, 0.25);
+  border-radius: 0.75em;
+  padding: 0.5em 1em;
+  width: 60%;
+  min-width: 300px;
+  background: black;
+  position: relative;
+  top: -40px;
+  left: -60px;
+  bottom: 8px;
+  /* position: absolute; */
+  transform: translateY(-50%);
+  /* bottom: 8%;
+   left: 50%;  */
+  margin-left: 8em /* margin: 0 auto */;
+  /* margin-top: 0; */
+}
+.img2 img {
+  width: 50px;
+}
+.image1 {
+  /* position: relative; */
+}
+.fa-light {
+  color: white;
+}
