@@ -11,6 +11,8 @@ h4,
 h5,
 h6,
 ul,
+input,
+label,
 body {
   padding: 0;
   margin: 0;
@@ -42,6 +44,7 @@ img {
   right: 0;
   top: 0;
   color: rgba(245, 245, 245, 0.999);
+  border-bottom: 6px solid rgb(46, 45, 45);
 }
 .home-text {
   margin: 0 auto;
@@ -51,7 +54,7 @@ img {
   text-align: center;
   width: 100%;
   /* line-height: 1.5; */
-  /* z-index: 1; */
+  z-index: 1;
   /* font-size: 1.625rem;
   font-weight: 400; */
   /* letter-spacing: 0!important; */
@@ -97,9 +100,16 @@ form button {
   padding: 1em;
   border: none;
   text-transform: capitalize;
+  letter-spacing: 0.1em;
+  margin-left: 0;
 }
 input {
   width: 50%;
   padding: 1em;
   border: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.fa-solid {
+  margin-left: 0.5em;
 }
