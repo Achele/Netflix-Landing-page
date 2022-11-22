@@ -218,3 +218,21 @@ video {
 .fa-light {
   color: white;
 }
+.four {
+  padding: 5em;
+  border-bottom: 1em solid rgb(46, 45, 45);
+  letter-spacing: 0.1em;
+}
+.four-container {
+  width: 45%;
+}
+.four h1 {
+  font-size: 3em;
+  padding-left: 0.5em;
+}
+.four h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 1em;
+  /* padding: 1em; */
+}
