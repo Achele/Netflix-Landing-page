@@ -236,3 +236,32 @@ video {
   margin: 1em;
   /* padding: 1em; */
 }
+.five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 5.9em 9em;
+  border-bottom: 1em solid rgb(46, 45, 45);
+}
+.five img {
+  width: 100%;
+}
+.section5-text {
+  display: block;
+  /* margin: 0 10em; */
+  padding: 0 5em;
+  /* letter-spacing: 0.1em; */
+}
+.section5-text h1 {
+  font-size: 3em;
+  /* letter-spacing: 0.1em; */
+  padding: 1em 0 0.5em 0;
+}
+.section5-text h2 {
+  font-size: 2em;
+  color: whitesmoke;
+  font-weight: 300;
+  padding: 0 1em;
+}
