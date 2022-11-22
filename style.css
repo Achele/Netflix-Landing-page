@@ -46,7 +46,7 @@ img {
   right: 0;
   top: 0;
   color: rgba(245, 245, 245, 0.999);
-  border-bottom: 6px solid rgb(46, 45, 45);
+  border-bottom: 1em solid rgb(46, 45, 45);
 }
 .home-text {
   margin: 0 auto;
@@ -118,25 +118,35 @@ input {
 
 /* styling for section 2 */
 .two {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+  padding: 3em;
+  border-bottom: 1em solid rgb(46, 45, 45);
 }
 .sec2-container {
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   padding: 0 3em;
   /* width: 70%; */
 }
 .sec2-text {
-  padding: 3em;
+  width: 50%;
+  /* padding: 0 5em; */
+  /* margin: 4em  */
 }
 .sec2-text h1 {
-  font-size: 3em;
+  margin-top: 0;
+  font-size: 2em;
+  padding-bottom: 0.5em;
+  letter-spacing: 0.1em;
+  /* font-weight: 400; */
+  /* padding-left: 2.2em; */
+}
+.sec2-text h2 {
+  font-weight: 300;
+  padding-right: 6em;
+  /* margin: 2em; */
 }
 .video {
   width: 50%;
