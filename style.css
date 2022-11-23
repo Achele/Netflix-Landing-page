@@ -118,7 +118,7 @@ input {
 
 /* styling for section 2 */
 .two {
-  padding: 3em;
+  padding: 5em;
   border-bottom: 0.5em solid rgb(46, 45, 45);
 }
 .sec2-container {
@@ -149,7 +149,7 @@ input {
   /* margin: 2em; */
 }
 .video {
-  width: 50%;
+  width: 45%;
   background-image: url("images/tv.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -157,13 +157,9 @@ input {
   padding: 2em;
 }
 video {
-  width: 91%;
-  /* padding:0 1.3em; */
-  height: 49vh;
-  margin-left: 1.2em;
+  margin-left: 2.5em;
   margin-top: 0;
   margin-bottom: 0.1em;
-  /* z-index: -1; */
 }
 .three {
   display: flex;
