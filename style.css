@@ -46,7 +46,7 @@ img {
   right: 0;
   top: 0;
   color: rgba(245, 245, 245, 0.999);
-  border-bottom: 1em solid rgb(46, 45, 45);
+  border-bottom: 0.5em solid rgb(46, 45, 45);
 }
 .home-text {
   margin: 0 auto;
@@ -100,7 +100,7 @@ form button {
   background: #e50914;
   color: white;
   padding: 1em;
-  border: none;
+  border: 1px solid #e50914;
   text-transform: capitalize;
   letter-spacing: 0.1em;
   margin-left: 0;
@@ -119,7 +119,7 @@ input {
 /* styling for section 2 */
 .two {
   padding: 3em;
-  border-bottom: 1em solid rgb(46, 45, 45);
+  border-bottom: 0.5em solid rgb(46, 45, 45);
 }
 .sec2-container {
   margin: 0 auto;
@@ -171,7 +171,7 @@ video {
   justify-content: center;
   padding: 3em;
   /* margin: 2em; */
-  border-bottom: 1em solid rgb(46, 45, 45);
+  border-bottom: 0.5em solid rgb(46, 45, 45);
   /* height: 100vh; */
 }
 .section3-text {
@@ -220,7 +220,7 @@ video {
 }
 .four {
   padding: 5em;
-  border-bottom: 1em solid rgb(46, 45, 45);
+  border-bottom: 0.5em solid rgb(46, 45, 45);
   letter-spacing: 0.1em;
 }
 .four-container {
@@ -242,10 +242,10 @@ video {
   justify-content: center;
   /* width: 80%; */
   margin: 0 auto;
-  padding: 5.9em 9em;
-  border-bottom: 1em solid rgb(46, 45, 45);
+  padding: 5.9em;
+  border-bottom: 0.5em solid rgb(46, 45, 45);
 }
-.five img {
+.section5-img {
   width: 100%;
 }
 .section5-text {
@@ -264,4 +264,62 @@ video {
   color: whitesmoke;
   font-weight: 300;
   padding: 0 1em;
+}
+.faq {
+  padding: 3em;
+  border-bottom: 0.5em solid rgb(46, 45, 45);
+}
+.faq > h1 {
+  text-align: center;
+  text-transform: capitalize;
+  /* padding-top: 2em; */
+  /* padding: 2em 2em 0 2em; */
+  font-size: 3em;
+  letter-spacing: 0.1em;
+}
+.faq-list {
+  margin: 0 auto;
+  width: 60%;
+  padding: 2em;
+}
+details {
+  background: #303030;
+  border: none;
+  padding: 1em 2.2em 1em 1.2em;
+  /* margin-bottom: .5em; */
+  margin: 0 auto 0.5em auto;
+
+  /* box-shadow:0 0 20px #d4d4d4; */
+}
+details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+details > p {
+  line-height: 1.5;
+  font-weight: 300;
+}
+/* .fa-plus{
+    text-align: center;
+    margin-left: 20em;
+} */
+.form2 {
+  text-align: center;
+  /* padding: 2em; */
+}
+.form2 input {
+  width: 30%;
+  padding: 1.5em;
+}
+.form2 button {
+  padding: 1.5em;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
