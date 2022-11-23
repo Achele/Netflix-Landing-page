@@ -190,7 +190,7 @@ video {
 .img2 {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.7em;
   box-shadow: 0 0 2em 0 #000;
   border: 2px solid hsla(0, 0%, 100%, 0.25);
   border-radius: 0.75em;
@@ -209,12 +209,16 @@ video {
   margin-left: 8em /* margin: 0 auto */;
   /* margin-top: 0; */
 }
+.img2-text > h4 {
+  color: blue;
+}
+.icon {
+  margin-left: 1.5em;
+}
 .img2 img {
   width: 50px;
 }
-.image1 {
-  /* position: relative; */
-}
+
 .fa-light {
   color: white;
 }
