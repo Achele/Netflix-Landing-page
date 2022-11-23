@@ -323,3 +323,23 @@ details > p {
   align-items: center;
   justify-content: center;
 }
+footer {
+  padding: 3em;
+  color: #989494fa;
+}
+.footer-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2.5em;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+li {
+  list-style: none;
+}
+footer p {
+  text-indent: 9.6em;
+  /* margin:0 7em; */
+  padding: 2em;
+}
